@@ -18,6 +18,7 @@ public class Authentication {
 
         return matcher.matches();
     }
+
     public boolean authenticateUserOnlineExamination(int choice,String username,String email,String password) {
         if(!isValidEmail(email)) {
             System.out.println("Please maintain correct email format...");
